@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:report": "cypress run --record --key afda6977-4ccb-48b8-b830-d34b74e3fbc9"
   },
   "repository": {
     "type": "git",
